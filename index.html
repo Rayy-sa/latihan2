@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2 - Form Registrasi Nilai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Form Registrasi Nilai</h1>
+        <form id="form-registrasi">
+            <div class="form-group">
+                <label for="nama-depan">Nama Depan</label>
+                <input type="text" id="nama-depan" placeholder="Masukkan nama depan" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="nama-belakang">Nama Belakang</label>
+                <input type="text" id="nama-belakang" placeholder="Masukkan nama belakang" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="nilai-angka">Nilai Angka</label>
+                <input type="number" id="nilai-angka" placeholder="Contoh: 50" step="0.1" min="0" max="100" required>
+            </div>
+            
+            <button type="submit" id="tombol-submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
